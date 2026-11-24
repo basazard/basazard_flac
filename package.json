@@ -1,0 +1,17 @@
+{
+  "name": "bitchord-archive-flac-addon",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "BitChord addon: verified lossless FLAC from the Internet Archive",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "deploy": "vercel deploy --prod",
+    "test": "node test/run.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {}
+}
